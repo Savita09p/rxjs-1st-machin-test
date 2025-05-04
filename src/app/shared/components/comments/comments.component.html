@@ -1,0 +1,9 @@
+<!--{{commentsArr | json}}-->
+
+<div class="row">
+    <div class="card mb-2 mt-2" *ngFor="let comment of commentsArr">
+        <div class="card-body bg-danger text-white">
+            {{comment.body}}
+        </div>
+    </div>
+</div>
