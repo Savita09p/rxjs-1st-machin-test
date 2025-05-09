@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'outFirstApp';
+
+  title1 ='Task Using Subject !!!..';
+
+  title2 = 'Task Using Beheviour Subject !!!..';
 }
